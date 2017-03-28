@@ -442,4 +442,8 @@ input[type=submit] {
     .space {
         padding-left: 165px;
     }
+
+    header {
+        position: static;
+    }
 }
