@@ -58,6 +58,7 @@ header {
     float: left;
     overflow: auto;
     padding-bottom: 30px;
+    border: solid #dddddd 1px;
 }
 
 .mainPortfolio {
@@ -66,7 +67,8 @@ header {
     background-color: white;
     margin-top: 40px;
     float: left;
-    min-height: 100%
+    min-height: 100%;
+    border: solid #dddddd 1px;
 }
 
 .side {
@@ -74,8 +76,9 @@ header {
     height: 200px;
     background-color: white;
     float: left;
-    margin-left: 40px;
+    margin-left: 36px;
     margin-top: 40px;
+    border: solid #dddddd 1px;
 }
 
 .mainContent {
@@ -244,4 +247,108 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+
+/*MEDIA SCREEN 980 PX*/
+
+@media screen and (max-width: 980px) {
+    .main {
+        width: 445px;
+    }
+    .aboutPhoto {
+        width: 400px;
+    }
+    .fPage {
+        width: 760px;
+    }
+    .toSize {
+        width: 760px;
+    }
+    .footer1 {
+        margin-top: 500px;
+    }
+    .footer2 {
+        margin-top: 1800px;
+    }
+    .footer3 {
+        margin-top: 0px;
+    }
+    .mainPortfolio {
+        width: 445px;
+        height: 2375px;
+    }
+    .sidePort {
+        width: 270px;
+    }
+    .portIcon {
+        width: 60px;
+    }
+    .portsideTitle {
+        padding-left: 0px;
+    }
+    .portPicsLeft {
+        width: 100%;
+    }
+    .portPicsRight {
+        width: 100%;
+    }
+    .banner {
+        width: 97.3%;
+        margin-left: 7px;
+    }
+}
+
+
+/*MEDIA SCREEN 768 PX*/
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 730px;
+    }
+    .aboutPhoto {
+        width: 250px;
+    }
+    .fPage {
+        width: 740px;
+    }
+    .toSize {
+        width: 740px;
+    }
+    .footer1 {
+        margin-top: 100px;
+    }
+    .footer2 {
+        margin-top: 1600px;
+    }
+    .footer3 {
+        margin-top: 0px;
+    }
+    .mainPortfolio {
+        width: 730px;
+        height: 2375px;
+    }
+    .side {
+        width: 730px;
+        margin-left: 0;
+    }
+    .sidePort {
+        width: 270px;
+    }
+    .portIcon {
+        width: 60px;
+    }
+    .portsideTitle {
+        padding-left: 0px;
+    }
+    .portPicsLeft {
+        width: 100%;
+    }
+    .portPicsRight {
+        width: 100%;
+    }
+    .banner {
+        width: 97.3%;
+        margin-left: 7px;
+    }
 }
