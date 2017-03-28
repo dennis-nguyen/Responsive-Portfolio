@@ -249,6 +249,13 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.divider-vertical {
+    height: 20px;
+    margin: 30px 9px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #f2f2f2;
+}
+
 
 /*MEDIA SCREEN 980 PX*/
 
@@ -304,7 +311,7 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
     .main {
-        width: 730px;
+        width: 740px;
     }
     .aboutPhoto {
         width: 250px;
@@ -319,21 +326,21 @@ input[type=submit] {
         margin-top: 100px;
     }
     .footer2 {
-        margin-top: 1600px;
+        margin-top: 900px;
     }
     .footer3 {
-        margin-top: 0px;
+        margin-top: 200px;
     }
     .mainPortfolio {
-        width: 730px;
-        height: 2375px;
+        width: 740px;
+        height: 1275px;
     }
     .side {
-        width: 730px;
+        width: 740px;
         margin-left: 0;
     }
     .sidePort {
-        width: 270px;
+        width: 740px;
     }
     .portIcon {
         width: 60px;
@@ -342,13 +349,97 @@ input[type=submit] {
         padding-left: 0px;
     }
     .portPicsLeft {
-        width: 100%;
+        width: 49%;
     }
     .portPicsRight {
-        width: 100%;
+        width: 49%;
     }
     .banner {
-        width: 97.3%;
-        margin-left: 7px;
+        width: 97.1%;
+        margin-left: 6px;
+    }
+}
+
+
+/*MEDIA SCREEN 640 PX*/
+
+@media screen and (max-width: 640px) {
+    .myName {
+        width: 100%;
+    }
+    .main {
+        width: 610px;
+        margin-top: 100px;
+    }
+    .aboutPhoto {
+        width: 590px;
+    }
+    .fPage {
+        width: 610px;
+    }
+    .toSize {
+        width: 100%;
+    }
+    .footer1 {
+        margin-top: 900px;
+    }
+    .footer2 {
+        margin-top: 2500px;
+    }
+    .footer3 {
+        margin-top: 200px;
+    }
+    .mainPortfolio {
+        width: 610px;
+        height: 2875px;
+        margin-top: 100px;
+    }
+    .side {
+        width: 610px;
+        margin-left: 0;
+    }
+    .sidePort {
+        width: 610px;
+    }
+    .portIcon {
+        width: 60px;
+    }
+    .portsideTitle {
+        padding-left: 0px;
+    }
+    .portPicsLeft {
+        width: 610px;
+        float: left;
+        margin-left: 20px;
+    }
+    .portPicsRight {
+        width: 600px;
+        float: left;
+        margin-left: 20px;
+    }
+    .banner {
+        width: 81.8%;
+        margin-left: 8px;
+    }
+    .navContent {
+        clear: left;
+    }
+    li {
+        float: right;
+        margin-right: 100px;
+    }
+    li a {
+        margin-left: -90px;
+        margin-right: -30px;
+    }
+    .divider-vertical {
+        height: 20px;
+        margin: 30px 0px;
+        margin-left: 0px;
+        border-right: 1px solid #cccccc;
+        border-left: 1px solid #f2f2f2;
+    }
+    .space {
+        padding-left: 165px;
     }
 }
